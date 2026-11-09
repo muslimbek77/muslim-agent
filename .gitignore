@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+
+# Local generated indexes and caches
+rag_index.json
+.pytest_cache/
+.mypy_cache/
+.idea/
+.DS_Store
+
+# Logs
+*.log
